@@ -1,0 +1,42 @@
+.buttonPadrao {
+	
+	
+	background-color: white;
+	color: black;
+	border-radius: 4px;
+	border: 2px solid black;
+	
+	
+	transition-duration: 0.4s;
+}
+
+.buttonPadrao:hover{
+	background-color: black;
+	color: white;
+}
+
+label{
+	
+	text-align: left;
+	font-weight: bold;
+	
+}
+
+.container {
+  	width: 200px;
+  	clear: both;
+}
+
+.container input {
+  	width: 100%;
+  	clear: both;
+}
+
+
+.container input[type=text]:focus {
+  	border: 3px solid #555;
+}
+
+.container div{
+	line-height: 25px;
+}
